@@ -32,5 +32,3 @@ Projet réalisé avec Scrum en 4 sprints :
 3. Logique métier
 4. Finalisation
 
-## 📎 Démo
-(Lien à ajouter plus tard)
