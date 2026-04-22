@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Facturation Fintech</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>💳 Fintech Billing System</h1>
+</header>
+
+<main>
+
+<!-- FORMULAIRE -->
+<div class="card">
+    <h2>Nouvelle Transaction</h2>
+
+    <input type="text" id="sender" placeholder="Expéditeur">
+    <input type="text" id="receiver" placeholder="Destinataire">
+    <input type="number" id="amount" placeholder="Montant">
+
+    <button onclick="generateInvoice()">Générer Facture</button>
+</div>
+
+<!-- FACTURE -->
+<div class="card" id="invoice">
+    <h2>Facture</h2>
+    <div id="result">Aucune facture générée</div>
+</div>
+
+<!-- HISTORIQUE -->
+<div class="card">
+    <h2>Historique</h2>
+    <ul id="history"></ul>
+</div>
+
+</main>
+
+</body>
+<script src="app.js"></script>
+</html>
